@@ -50,6 +50,17 @@ body{
     background-color: var(--bg-color);
     color: var(--text-color);
 }
+
+/* Remove underline from all links */
+a {
+    text-decoration: none;
+}
+
+/* Optional: Add hover effect for links */
+/* a:hover {
+    text-decoration: underline;
+} */
+
 header {
     position: fixed;
     top: 0;
